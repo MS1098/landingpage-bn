@@ -1,6 +1,6 @@
 
 import './App.css';
-import Landing from './landing';
+import Landing from './components/landing';
 function App() {
   return (
     <div className="App">
