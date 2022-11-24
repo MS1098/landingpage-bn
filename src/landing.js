@@ -8,10 +8,21 @@ import user from "./assets/Group 1216.svg";
 import loc from "./assets/Group 1215.svg";
 import server from "./assets/Group 1217.svg";
 import check from "./assets/Group 1120.svg";
-import free from "./assets/free.svg";
+import free from "./assets/Free.svg";
 import pcheck from "./assets/plan-check.svg";
 import global from "./assets/Huge Global.svg";
-
+import netflix from "./assets/Mask Group.svg";
+import reddit from "./assets/reddit.svg";
+import amazon from "./assets/amzon.svg";
+import dischord from "./assets/dischord.svg";
+import spotify from "./assets/spotify.svg";
+import fb from "./assets/Facebook.svg";
+import twitter from "./assets/Twitter.svg";
+import insta from "./assets/Instagram.svg";
+import right from "./assets/right-arrow.svg";
+import left from "./assets/left-arrow.svg";
+import bs from "./assets/bars-solid.svg";
+import si from "./assets/sign-in.svg";
 
 
 function Landing() {
@@ -22,8 +33,8 @@ function Landing() {
       <div className="sec sec-1">
         <div className="wrapper">
           <header>
-            <button id="nav-toggler-btn" className="nav-toggler-ctr">
-              <img className="nav-toggler" src="media/bars-solid.svg" />
+            <button  className="nav-toggler-ctr">
+              <img className="nav-toggler" src={bs} />
             </button>
             <div className="logo-ctr">
               <img src={Logo} alt="LaslesVPN" />
@@ -32,24 +43,24 @@ function Landing() {
               <p className="menu-title nav-title">Menu</p>
               <ul className="nav-item-list">
                 <li className="nav-item">
-                  <a href="#about" className="nav-link">About</a>
+                  <a  className="nav-link">About</a>
                 </li>
                 <li className="nav-item">
-                  <a href="#features" className="nav-link">Features</a>
+                  <a  className="nav-link">Features</a>
                 </li>
                 <li className="nav-item">
-                  <a href="#pricing" className="nav-link">Pricing</a>
+                  <a  className="nav-link">Pricing</a>
                 </li>
                 <li className="nav-item">
-                  <a href="#testimonials" className="nav-link">Testimonials</a>
+                  <a className="nav-link">Testimonials</a>
                 </li>
                 <li className="nav-item">
-                  <a href="#help" className="nav-link">Help</a>
+                  <a  className="nav-link">Help</a>
                 </li>
               </ul>
             </nav>
             <button id="login-toggler-btn" className="login-toggler-ctr">
-              <img className="login-toggler" src="media/sign-in.svg" />
+              <img className="login-toggler" src={si} />
             </button>
             <div className="header-sign-btns">
               <p className="menu-title login-title">Sign In or Join</p>
@@ -124,7 +135,7 @@ function Landing() {
               </p>
               <ul className="feature-list">
                 <li className="feature-list-item">
-                  <span><img src="media/feature-check.svg" /></span>Powerful
+                  <span><img src={check} /></span>Powerful
                   online protection.
                 </li>
                 <li className="feature-list-item">
@@ -185,7 +196,7 @@ function Landing() {
               </div>
               <div id="standard-plan" className="plan">
                 <div className="plan-img-ctr">
-                  <img src="media/plan-standard.svg" />
+                  <img src={free} />
                 </div>
                 <p className="plan-type">Standard Plan</p>
                 <ul className="plan-features">
@@ -217,7 +228,7 @@ function Landing() {
               </div>
               <div id="premium-plan" class="plan">
                 <div className="plan-img-ctr">
-                  <img src="media/plan-premium.svg" />
+                  <img src={free} />
                 </div>
                 <p className="plan-type">Premium Plan</p>
                 <ul className="plan-features">
@@ -269,19 +280,19 @@ function Landing() {
           </section>
           <section className="brands">
             <div className="brand-img-ctr">
-              <img src="media/brands/netflix.svg" />
+              <img src={netflix} />
             </div>
             <div className="brand-img-ctr">
-              <img src="media/brands/reddit.svg" />
+              <img src={reddit} />
             </div>
             <div className="brand-img-ctr">
-              <img src="media/brands/amazon.svg" />
+              <img src={amazon} />
             </div>
             <div className="brand-img-ctr">
-              <img src="media/brands/discord.svg" />
+              <img src={dischord} />
             </div>
             <div className="brand-img-ctr">
-              <img src="media/brands/spotify.svg" />
+              <img src={spotify} />
             </div>
           </section>
           <section id="testimonials" className="testimonials">
@@ -300,10 +311,10 @@ function Landing() {
                 <div className="item-links"></div>
                 <div className="slider-btns">
                   <button className="slider-btn left">
-                    <img src="media/left-arrow.svg" />
+                    <img src={left} />
                   </button>
                   <button className="slider-btn right">
-                    <img src="media/right-arrow.svg" />
+                    <img src={right} />
                   </button>
                 </div>
               </div>
@@ -331,7 +342,7 @@ function Landing() {
           <footer>
             <div className="company-info">
               <div className="footer-logo-ctr">
-                <img src="media/logo.svg" />
+                <img src={Logo} />
               </div>
               <div className="company-desc-text">
                 <p className="company-desc sub-desc">
@@ -343,19 +354,19 @@ function Landing() {
                 <a href="#" className="social-media-icon-ctr">
                   <img
                     className="social-media-icon"
-                    src="media/social/facebook.svg"
+                    src={fb}
                   />
                 </a>
                 <a href="#" className="social-media-icon-ctr">
                   <img
                     className="social-media-icon"
-                    src="media/social/twitter.svg"
+                    src={twitter}
                   />
                 </a>
                 <a href="#" className="social-media-icon-ctr">
                   <img
                     className="social-media-icon"
-                    src="media/social/instagram.svg"
+                    src={insta}
                   />
                 </a>
               </div>
