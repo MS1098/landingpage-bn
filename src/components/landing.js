@@ -1,28 +1,28 @@
 import React from 'react'
-import "./css/styles.css";
-import "./css/styles.assets.css";
-import Logo from "./assets/Logo.svg";
-import CTA from "./assets/Illustration 1.svg";
-import CTA2 from "./assets/Illustration 2.svg";
-import user from "./assets/Group 1216.svg";
-import loc from "./assets/Group 1215.svg";
-import server from "./assets/Group 1217.svg";
-import check from "./assets/Group 1120.svg";
-import free from "./assets/Free.svg";
-import pcheck from "./assets/plan-check.svg";
-import global from "./assets/Huge Global.svg";
-import netflix from "./assets/Mask Group.svg";
-import reddit from "./assets/reddit.svg";
-import amazon from "./assets/amzon.svg";
-import dischord from "./assets/dischord.svg";
-import spotify from "./assets/spotify.svg";
-import fb from "./assets/Facebook.svg";
-import twitter from "./assets/Twitter.svg";
-import insta from "./assets/Instagram.svg";
-import right from "./assets/right-arrow.svg";
-import left from "./assets/left-arrow.svg";
-import bs from "./assets/bars-solid.svg";
-import si from "./assets/sign-in.svg";
+import "../css/styles.css";
+import "../css/styles.assets.css";
+import Logo from "../assets/Logo.svg";
+import CTA from "../assets/Illustration 1.svg";
+import CTA2 from "../assets/Illustration 2.svg";
+import user from "../assets/Group 1216.svg";
+import loc from "../assets/Group 1215.svg";
+import server from "../assets/Group 1217.svg";
+import check from "../assets/Group 1120.svg";
+import free from "../assets/Free.svg";
+import pcheck from "../assets/plan-check.svg";
+import global from "../assets/Huge Global.svg";
+import netflix from "../assets/Mask Group.svg";
+import reddit from "../assets/reddit.svg";
+import amazon from "../assets/amzon.svg";
+import dischord from "../assets/dischord.svg";
+import spotify from "../assets/spotify.svg";
+import fb from "../assets/Facebook.svg";
+import twitter from "../assets/Twitter.svg";
+import insta from "../assets/Instagram.svg";
+import right from "../assets/right-arrow.svg";
+import left from "../assets/left-arrow.svg";
+import bs from "../assets/bars-solid.svg";
+import si from "../assets/sign-in.svg";
 
 
 function Landing() {
